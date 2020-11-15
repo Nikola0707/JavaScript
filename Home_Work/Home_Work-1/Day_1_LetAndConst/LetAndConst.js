@@ -28,7 +28,10 @@ function main() {
     const r = readLine();
     
     // Print the area of the circle:
-    console.log(PI * (r * r))
+    const areaOfCircle = PI * Math.pow(r, 2);
+    // const areaOfCircle = PI * ( r ** 2);
+    
+    console.log(areaOfCircle)
     // Print the perimeter of the circle:
     console.log(2 * PI * r)
     try {    
