@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #aa4b6b;
+  background: -webkit-linear-gradient(
+    to right,
+    #3b8d99,
+    #6b6b83,
+    #aa4b6b
+  ); 
+  background: linear-gradient(
+    to right,
+    #3b8d99,
+    #6b6b83,
+    #aa4b6b
+  ); 
+  text-align: center;
+  color: #fff;
+}
+.homePage {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  text-align: center;
+
+}
+.logIn,
+.signUp {
+    margin-top: 2rem;
+    width: 20%;
+}
+input,
+button {
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 0.5rem;
+  padding: 10px 5px;
+}
+
+button:hover{
+    cursor: pointer;
+    background: #12c2e9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}

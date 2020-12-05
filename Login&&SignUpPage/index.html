@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <h1>Welcome to my page!</h1>
+    <div class="homePage">
+      <div class="logIn">
+        <h1>Login</h1>
+        <form id="loginForm">
+          <div>
+            <input
+              type="text"
+              placeholder="Enter your username or email"
+              id="usernameOrEmail"
+            />
+          </div>
+          <div>
+            <input
+              type="password"
+              placeholder="Enter your password"
+              id="loginPassword"
+            />
+          </div>
+          <div><button type="submit" id="loginBtn">Login</button></div>
+        </form>
+      </div>
+      <div class="signUp">
+        <h1>Sign up</h1>
+        <form id="signUpForm">
+          <div>
+            <input type="email" placeholder="Email address" id="email" autocomplete="off"/>
+          </div>
+          <div><input type="text" placeholder="Username" id="username" autocomplete="off"/></div>
+          <div>
+            <input type="password" placeholder="Password" id="password" />
+          </div>
+          <div>
+            <input
+              type="password"
+              placeholder="Retype Password"
+              id="retypePassword"
+            />
+          </div>
+
+          <button id="btn" type="submit">Sign Up!</button>
+        </form>
+      </div>
+      <script src="../script.js"></script>
+    </div>
+  </body>
+</html>
